@@ -1,5 +1,5 @@
 const shopItems = [
-    { name: "Bestsellr Pack", price: "6 Chapters", image: "images/bestsellrpack.png" },
+    { name: "Bestsellr Pack", price: "6 Chapters", image: "images/Bestsellr Pack.png" },
     { name: "Hardcopy of your Story", price: "6 Chapters", image: "images/hardcopy.png" },
     { name: "Book Grant - $5 (Stackable)", price: "1 Chapter", image: "images/bookgrant.png" },
     { name: "BookMarks (Set of 4)", price: "4 Chapters", image: "images/bookmarks.png" },
