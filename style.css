@@ -679,11 +679,11 @@ footer p a:hover {
     }
 
     .nav-links {
-        gap: 30px;
+    gap: 14px;
     }
 
     .nav-links a {
-        font-size: 12px;
+    font-size: 11px;
     }
 
     .hero-section {
