@@ -777,6 +777,18 @@ footer p a:hover {
     .footer-links {
         margin-bottom: 8px;
     }
+    .hero-title h1 {
+    font-size: 34px;
+    }
+
+    .hero-bottom-title img {
+    width: 150px;
+    }
+
+    .about-bestsellr-section img {
+        width: 70%;
+        max-width: 260px;
+    }
 }
 
 
