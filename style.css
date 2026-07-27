@@ -162,6 +162,14 @@ body {
     background: rgba(2, 145, 181, 1);
 }
 
+.path-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 .about-bestsellr-section {
     width: 100%;
     min-height: 620px;
@@ -819,6 +827,17 @@ footer p a:hover {
  
     .footer-links {
         margin-bottom: 8px;
+    }
+    .path-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 14px;
+    }
+
+    .path-buttons .hero-button {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
     }
 }
  
