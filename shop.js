@@ -5,6 +5,7 @@ const shopItems = [
     { name: "BookMarks (Set of 4)", price: "2 Chapters", image: "images/bookmarks.png" },
     { name: "Hack Club Stickers (Set of 5)", price: "1 Chapters", image: "images/stickers.png" },
     { name: "Kindle Subscription Grant", price: "3 Chapters", image: "images/kindle.png" },
+    { name: "E-Reader Grant $50 (Stackable)", price: "10 Chapters", image:"images/e-reader.jpg" },
     { name: "Pocket Friendly Book Lamp", price: "3 Chapters", image: "images/booklamp.png" },
     { name: "Book Themed Tote Bag", price: "2 Chapters", image: "images/totebag.png" },
     { name: "Illusion Metal Bookends", price: "4 Chapters", image: "images/bookends.png" },
