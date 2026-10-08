@@ -2,6 +2,6 @@
   "name": "bestsellr",
   "private": true,
   "dependencies": {
-    "@jeremy46231/ferry": "latest"
+    "@jeremy46231/ferry": "0.4.0"
   }
 }
