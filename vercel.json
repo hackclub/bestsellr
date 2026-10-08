@@ -1,6 +1,6 @@
 {
   "redirects": [
-    { "source": "/submit", "destination": "/api/submit/start" },
-    { "source": "/api/submit", "destination": "/api/submit/start" }
+    { "source": "/submit", "destination": "/api/submit/start", "permanent": false },
+    { "source": "/api/submit", "destination": "/api/submit/start", "permanent": false }
   ]
 }
