@@ -1,0 +1,7 @@
+{
+  "name": "bestsellr",
+  "private": true,
+  "dependencies": {
+    "@jeremy46231/ferry": "0.4.0"
+  }
+}
