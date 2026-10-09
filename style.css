@@ -176,7 +176,33 @@ body {
   border-color: rgba(16, 19, 29, 0.08);
   cursor: not-allowed;
   box-shadow: none;
+  position: relative;
+}
+
+.button-disabled::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, -8px);
+  background: #10131d;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
   pointer-events: none;
+}
+
+.button-disabled:hover {
+  transform: none;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.button-disabled:hover::after {
+  opacity: 1;
 }
 
 .about-bestsellr-section {
