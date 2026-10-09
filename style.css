@@ -170,6 +170,15 @@ body {
     flex-wrap: wrap;
 }
 
+.button-disabled {
+  background: rgba(255, 255, 255, 0.55);
+  color: rgba(16, 19, 29, 0.45);
+  border-color: rgba(16, 19, 29, 0.08);
+  cursor: not-allowed;
+  box-shadow: none;
+  pointer-events: none;
+}
+
 .about-bestsellr-section {
     width: 100%;
     min-height: 620px;
